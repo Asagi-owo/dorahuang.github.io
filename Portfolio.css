@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width : 1920px )
+{
+
+html
+{ font-family: Georgia;
+}
+	
+a:link
+{ color: black; 
+  text-decoration: none;
+}
+
+a:visited
+{ color: black;
+  text-decoration: none;
+}
+
+a:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+::selection
+{ color:black;
+  background: #2EEDD6;
+}
+
+::-moz-selection
+{ color:black;
+  background: #2EEDD6;
+}
+
+.top_navigation1
+{ position:absolute;
+  left:100px;
+  top:100px;
+}
+
+.top_navigation2
+{ position:absolute;
+  left:468px;
+  top:100px;
+  font-size: 16px;
+  color: white;
+}
+
+.top_navigation3
+{ position:absolute;
+  left:826px;
+  top:100px;
+}
+
+.top_navigation4
+{ position:absolute;
+  left:1206px;
+  top:100px;
+}
+	
+.current_page
+{ 
+  position:absolute;
+  left:392px;
+  top:80px;
+  width: 214px;
+  font-size: 24px;
+  font-weight:bold;
+  text-align: center;
+}
+	
+.icon_navi
+{ margin-top: 8px;
+}
+	
+}
+
+#BACK_TO_TOP
+{ position:fixed;
+  left:0px;
+  top:652px;
+  z-index: 10;
+}
+
+.goto_E
+{ position:absolute;
+  left:100px;
+  top:622px;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.selected
+{ position:absolute;
+  left:100px;
+  top:288px;
+  width:250px;
+  height: 38px;
+  line-height: 8px;
+  background:black;
+  text-align: center;
+}
+
+#NUMBER2
+{ position:absolute;
+  left:100px;
+  top:348px;
+}
+
+#NUMBER3
+{ position:absolute;
+  left:100px;
+  top:408px;
+}
+
+#NUMBER4
+{ position:absolute;
+  left:100px;
+  top:468px;
+}
+
+.unselected
+{ 
+  width:210px;
+  height: 38px;
+  line-height: 8px;
+  background:black;
+  text-align: center;
+  transition:width 0.2s;
+  -moz-transition:width 0.2s; 
+  -webkit-transition:width 0.2s;
+  -o-transition:width 0.2s; 
+}
+
+.unselected:hover
+{ width:250px;
+  text-align: center;
+}
+
+.ui_title
+{ position:absolute;
+  left:444px;
+  top:260px;
+}
+
+#UI_TITLE
+{ margin-bottom: -10px; 
+}
+
+#UI_01
+{ position:absolute;
+  left:444px;
+  top:386px;
+}
+
+#UI_02
+{ position:absolute;
+  left:444px;
+  top:846px;
+}
+
+#UI_03
+{ position:absolute;
+  left:444px;
+  top:1306px;
+}
+
+#UI_04
+{ position:absolute;
+  left:444px;
+  top:1766px;
+}

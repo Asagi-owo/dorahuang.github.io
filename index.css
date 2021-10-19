@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@media screen and (max-width : 1920px )
+{
+
+html
+{   background: url("background_image.png") no-repeat;
+	background-size:1366px 1072px;
+	-webkit-background-size: 1366px 1072px;
+    -o-background-size: 1366px 1072px;
+    background-attachment: scroll;	
+	
+	font-family: Georgia;
+}
+	
+a.top_navigation1:link
+{ color: black; 
+  text-decoration: none;
+}
+
+a.top_navigation2:link
+{ color: white; 
+  text-decoration: none;
+}
+
+a.top_navigation3:link
+{ color: black; 
+  text-decoration: none;
+}
+
+a.top_navigation4:link
+{ color: black; 
+  text-decoration: none;
+}
+
+a.top_navigation1:visited
+{ color: black;
+  text-decoration: none;
+}
+
+a.top_navigation2:visited
+{ color: white;
+  text-decoration: none;
+}
+
+a.top_navigation3:visited
+{ color: black;
+  text-decoration: none;
+}
+
+a.top_navigation4:visited
+{ color: black;
+  text-decoration: none;
+}
+
+a.top_navigation1:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation2:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation3:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation4:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation1:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation2:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation3:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a.top_navigation4:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+::selection
+{ color:black;
+  background: #2EEDD6;
+}
+
+::-moz-selection
+{ color:black;
+  background: #2EEDD6;
+}
+
+.top_navigation1
+{ position:absolute;
+  left:100px;
+  top:100px;
+}
+
+.top_navigation2
+{ position:absolute;
+  left:468px;
+  top:100px;
+  font-size: 16px;
+  color: white;
+}
+
+.top_navigation3
+{ position:absolute;
+  left:826px;
+  top:100px;
+}
+
+.top_navigation4
+{ position:absolute;
+  left:1206px;
+  top:100px;
+}
+}
+
+
+a:link
+{ color: black; 
+  text-decoration: none;
+}
+
+a:visited
+{ color: black;
+  text-decoration: none;
+}
+
+a:hover
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+a:active
+{ color: #2EEDD6;
+  text-decoration: none;
+}
+
+#MY_NAME
+{ position:absolute;
+  left:122px;
+  top:250px;
+}
+
+.self_intro
+{ position:absolute;
+  left:42px;
+  top:350px;
+  width: 526px;
+  line-height:30px;
+}
+
+.goto_P
+{ position:absolute;
+  left:308px;
+  top:584px;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+.goto_E
+{ position:absolute;
+  left:285px;
+  top:622px;
+  font-size: 20px;
+  font-weight:bold;
+}
+
+#BACK_TO_TOP
+{ position:fixed;
+  left:0px;
+  top:652px;
+  z-index: 10;
+}
+
+.photography
+{ position:absolute;
+  left:226px;
+  top:792px;
+}
+
+#PHOTOGRAPHY_TITLE
+{ margin-bottom: -10px; 
+}
+
+#PHOTO_1
+{ position:absolute;
+  left:226px;
+  top:894px;
+}
+
+#PHOTO_2
+{ position:absolute;
+  left:226px;
+  top:1504px;
+}
+
+.photo_title_1
+{ position:absolute;
+  left:754px;
+  top:1302px;
+}
+
+.photo_title_2
+{ position:absolute;
+  left:754px;
+  top:2074px;
+}
+
+.phototime
+{ margin-bottom: -10px; 	
+}
+
+#DECLARATION
+{ position:absolute;
+  left:1132px;
+  top:260px;
+  width: 128px;
+	
+}
+
+#EMAIL
+{ position:absolute;
+  top:2386px;
+  left:580px;
+}
